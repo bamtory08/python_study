@@ -1,8 +1,10 @@
-x=input("공비")
+x=input("r")
 a=int(x)
-z=input("몇항까지의 합")
-b=int(z)
-s=0
-for y in range(1,b+1):
-    s=s+a**y
-print("공비:", x, "합:", s) 
+def sum_func(n):
+    s=0
+    for y in range(1,n+1):
+        s=s+a**y
+    return s
+b=input("till what haang")
+n=int(b)
+print(sum_func(n))

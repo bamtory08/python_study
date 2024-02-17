@@ -5,8 +5,8 @@ x=["개", "외계인", "로베르토 블라디보스토크 제임스 7세", "테
 
 q=random.choice(w)
 p=random.choice(y)
-r=random.choice(x)
+u=random.choice(x)
 
 print("당신의 전생: 엔터를 클릭하시오")
 input()
-print("당신은", q, p, r)
+print("당신은", q, p, u)

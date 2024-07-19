@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="bamtory">
+        <meta name="descripion" content="i dunnno bro">
+        <title>practicing html</title>
+        <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSN5kyGXRsJTnCvfM371Ycg8u7k9viw1gW-g&s" type="image/x-icon">
+        <link rel="stylesheet" href="main.css" type="text/css">
+    </head>
+    <body>
+        <h1>제목 헤더 h1</h1>
+
+        <hr>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#title11">섹션 나눈거 제목</a>
+                </li>
+                <li>
+                    <a href="#title22">섹션 나눈걸로 하면 됨</a>
+                </li>
+
+            </ul>
+        </nav>
+        <hr>
+
+        <p><a href="teachable.html">ai</a></p>
+
+        <hr>
+
+        <section id="title11">
+
+            <h2>부제목 h2</h2>
+            <p> p는 paragraph
+                <br>&nbsp;&nbsp;&nbsp; &엔비에스피;는 띄어쓰기
+                <br>br은 줄바꿈.. 엔비에스피랑 br은 h나 p 안에 써도 되는 inline
+                <br>br*어떤수 이렇게 하면 br 겁나 많이 넣을 수 있음
+                <!--이건 노트기능인데 딴사람들한텐 안보이고 우클릭한다음 페이지 소스 보기 하면 보임-->
+            </p>
+
+            <h3>h1 뒤에 h2 h3 등등 부제목 추가</h3>
+            <p>hr은 선같은거</p>
+        </section>
+
+        <hr>
+
+        <section id="title22">
+            <h2>부제목 h2 두개씩 있어도 되는군 h1 2 3될수록 크기 작아지는듯</h2>
+            <p><em>em은 emphasize로 기울어지게 만드는 inline</em></p>
+            <p>p 두개씩 할수있음: h랑 p는 h나 p 안에 못쓰는 block, inline과 달리 간격 띄워줌 </p>
+
+            <h3>h3이란다</h3>
+            <p>abbr title="내용ㅎㅎ"단어:: 각주인데 어떤사람한텐 작동이 안될수도 있음<abbr title="do kyung soo">DKS</abbr></p>
+
+            <h3>wat am i</h3>
+            <p><strong>strong은</strong> 글씨 굵게 해주는 inline</p>
+        </section>
+        <hr>
+        <p>
+            &엘티;는 less than으로 &lt; 
+            <br>&카피;는 copyrights &copy;
+            <br>&지티;는 greater than으로 &gt;
+        </p>
+        <hr>
+        <h2>리스트</h2>
+
+        <h3>ol(ordered list)</h3>
+        <ol>
+            <li>li(list)로 열기</li>
+            <li>p랑은 다르게 간격이 더 적고 123이 생김</li>
+            <li>이제 ol로 닫으면 됨</li>
+        </ol>
+        
+        <h3>ul(unordered list)</h3>
+        <ul>
+            <li><p>123은 안나오고 점이찍힘</p></li>
+            <li><p>리스트 안에 p가 있어도 되는군..</p></li>
+            <li><p>p가 찍히면 간격이 있군</p></li>
+        </ul>
+
+        <h3>dl(detailed list)</h3>
+        <dl>
+            <dt>dt가 tile</dt>
+            <dd>dd가 detail</dd>
+
+            <dt>도경수의 특징</dt>
+            <dd>잘생겼다!</dd>
+        </dl>
+        <hr>
+        <h2>링크</h2>
+        <h3>absolute reference..?</h3>
+        <p>걍 링크거는거!!</p>
+        <p><a href="https://namu.wiki/w/%EB%8F%84%EA%B2%BD%EC%88%98">도경수</a></p>
+
+        <h3>relative reference???</h3>
+        <p><a href="about.html">독영수</a></p>
+        <p>여기다가 다음페이지 이런거 쓰면 될듯</p>
+
+        <h3>등등..</h3>
+        <ul>
+            <li>
+                <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLs1ZA33WaSms_cxGJkz6PX-Vy8rCVcpNGgA&s"download>도경수사진</a>
+                <br>이미지 다운로드 왜 안되지?,,,
+            </li>
+            <li>
+                <a href="mailto:bamtory0122@naver.com">이메일</a>
+            </li>
+            <li>
+                <a href="https://namu.wiki/w/%EB%8F%84%EA%B2%BD%EC%88%98"target="_blank">도경수나무위키</a>
+                <br>링크두고 뒤에 타겟 _블랭크 붙여놓으면 새 탭에서 사이트가 열림
+            </li>
+        </ul>
+
+        <hr>
+        <h2>이미지</h2>
+        <p>
+            width랑 height중에서 크기만 하고싶으면 width만 써도 됨
+            <br>title은 마우스 위에 올려두면 뜨는거?
+            <br>src뒤에 img/붙이고 비줠스튜디오 안에 있는 사진 복붙하면됨
+            <br>loading lazy는 페이지에 사진 여러개 넣을때 한번에 싹다 로딩시켜놓으면 느려질 수 있으니
+            화면에 보일때쯤부터 로딩시켜 놓는다는 뜻
+        </p>
+        <figure>
+            <img src="img/do.jpg" alt="d.o." title="잘생긴 경수ㅎㅎ" width="200" loading="lazy">
+            <figcaption>
+                handsome kyungsoo
+                <p>god damnn</p>
+            </figcaption>
+
+        </figure>
+
+        <hr>
+
+        <p>
+            <a href="#">back to top하려면 #</a>
+        </p>
+
+
+
+    
+
+
+    </body>
+</html>
